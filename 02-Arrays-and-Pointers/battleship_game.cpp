@@ -1,5 +1,21 @@
 #include <iostream>
 
+
+/* --------------------------------------------------------------------------------
+ MATRİS UYGULAMASI: AMİRAL BATTI ALGORİTMASI
+--------------------------------------------------------------------------------
+* Değişken Temizliği -> RAM'de önceden kalma çöp verileri (garbage value) engellemek
+  için sayaçlar (hits, turns) her zaman "0" ile başlatılmalıdır.
+* bool Matris Kullanımı -> Doğruluk/Yanlışlık durumları (Gemi var=1, Yok=0) için
+  bellekte en az yer kaplayan "bool" tipi matrisler tercih edilir.
+* Durum Güncelleme -> Vurulan hedefin matristeki değeri anında "0" yapılarak
+  kullanıcının aynı yeri tekrar vurup hile yapması (mantıksal bug) engellenir.
+================================================================================ */
+
+
+
+
+
 using namespace std;
 
 // Basit düzeyde amiral battı oyunu (Battleship)
