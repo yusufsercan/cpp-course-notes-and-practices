@@ -8,3 +8,4 @@ This folder contains practical exercises and projects focusing on C++ arrays, me
 * **`arrays_2.cpp`**: Compares classic index-based for loops with modern C++11 range-based for loops using references.
 * **`arrays_3.cpp`**: Interactive array manipulation tool using switch-case, input validation, and zero-initialization.
 * **`pointers_1.cpp`**: Introduction to pointers, memory addresses, and dereferencing concepts in C++.
+* **`pointers_2.cpp`**: Pass-by-pointer demonstration calculated via memory address dereferencing.
