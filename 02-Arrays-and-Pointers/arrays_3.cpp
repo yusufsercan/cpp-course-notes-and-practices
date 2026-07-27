@@ -18,6 +18,7 @@
   farklı iş kollarına (case) dallanmayı sağlayan en temiz kontrol yapısıdır.
 ================================================================================ */
 // dizilerde dışarıdan değer yazıp okumak
+using namespace std;
 int main()
 {
     double myValue,myNumbers[5]={0,0,0,0,0};// yani index numarası en fazla 4 olabilir 0 dan başladığı için mantığı kavra birde burada 0 ları yazmamızın sebebi başta 0 a eşitleyip oranın boş olduğunu söylüyoruz yoksa ram den saçma değerler getirebilir
