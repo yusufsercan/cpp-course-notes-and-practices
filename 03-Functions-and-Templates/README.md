@@ -8,7 +8,7 @@ This directory contains C++ practices and study notes focused on modular program
 
 ---
 
-### 📂 Code References
+## 📜 Files & Descriptions
 
 * `functions_1.cpp`: Demonstrates basic C++ function definition, declaration, and scope management.
 * `functions_2.cpp`: Advanced function examples including parameter passing (Pass-by-Value vs Pass-by-Reference).
