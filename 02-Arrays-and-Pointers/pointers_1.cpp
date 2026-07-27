@@ -43,7 +43,7 @@ int main()
     return 0;
 }
 
-// NOT: pointer da bir değişkendir  sadece bizim ona verdiğimiz değişkenin adresini tutan değişkenlere pointer deniyor
+// NOT: Pointer, bellekteki herhangi bir noktanın adresini tutabilen özel bir değişkendir
 
 
 
