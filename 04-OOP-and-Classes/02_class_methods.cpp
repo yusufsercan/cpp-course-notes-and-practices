@@ -19,7 +19,7 @@ public:
     {
         cout << "Hello C++ OOP!\n";
     }
-s
+
     int speed(int mySpeed)
     {
         return mySpeed;
