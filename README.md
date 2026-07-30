@@ -12,6 +12,7 @@ This repository contains C++ code examples, algorithms, and practical exercises 
 * **02-Arrays-and-Pointers:** Array manipulation, shift algorithms, and pointer exercises.
 * **03-Functions-and-Templates:** Function structures, default arguments, overloading, and function templates.
 * **04-OOP-and-Classes:** Object-Oriented Programming (OOP) concepts, class design, and object architecture.
+* **05-Mini-Projects:** This section contains code that combines multiple basic-level learning concepts.
 
 ---
 
