@@ -1,6 +1,6 @@
 # 🚀 C++ Course Notes & Practices
 
-This repository contains C++ code examples, algorithms, and practical exercises developed during my university coursework and personal study sessions.
+This repository contains C++ code examples, algorithms, and practical exercises developed during my university coursework and personal study sessions. 
 
 > ⚠️ **Note:** The code in this repository represents my ongoing learning journey. The primary goal is to track my progress in C++, solidify core concepts, and build a strong engineering foundation.
 
