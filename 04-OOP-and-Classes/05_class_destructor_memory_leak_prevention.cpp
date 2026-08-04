@@ -50,8 +50,8 @@ public:
         // 🚨 BELLEK SIZINTISI (MEMORY LEAK) KALKANI:
         // Eğer buraya bu delete komutlarını yazmazsak; main içindeki "delete ptr;" komutu
         // sadece büyük nesne kasasını silerdi. Heap'in uzak köşesinde kiraladığımız o içinde
-        // 7 ve 12 yazan küçük odacıklar RAM'de YETİM (sahipsiz) kalırdı ve RAM şişerdi!
-        // İşte nesne tamamen ölmeden önce, kendi elleriyle o uzak arsaları temizleyip devlete iade ediyor:
+        // 7 ve 12 yazan küçük odacıklar RAM'de boş yere yer kaplardı ve RAM şişerdi!
+        // İşte nesne tamamen ölmeden önce, kendi elleriyle o uzak arsaları temizleyip bırakıyor. Böylece bellek sızıntısı önlenmiş olur.
         delete number1;
         delete number2;
 
@@ -69,7 +69,7 @@ int main()
     myMath* ptr = new myMath(7, 12);
 
     
-    //yukarıdaki Destructor (~myMath) otomatik olarak uyanır, önce içindeki o gizli yetim odacıkları siler, en son bu büyük nesne kasası RAM'den kalkar!
+    //yukarıdaki Destructor (~myMath) otomatik olarak uyanır, önce içindeki o gereksiz odacıkları siler, en son bu büyük nesne kasası RAM'den kalkar!
     delete ptr;
 
     // ptr pointer'ı boşa çıkan eski adresi gösterip serseri mayına dönüşmesin diye haritasını sıfırlıyoruz.
