@@ -12,3 +12,4 @@ This folder contains practical exercises and projects focusing on C++ arrays, me
 * **`pointers_3.cpp`**: Demonstrates function pointers, dynamic function calling, and execution via RAM memory addresses.
 * **`array_pointer_relation.cpp`**: Demonstrates array decay, pointer arithmetic, and contiguous memory layout in RAM.
 * **`void_pointers.cpp`**: Demonstrates generic (void) pointers, type casting, and reading untyped RAM addresses using explicit casting.
+* **`01_dynamic_memory_allocation.cpp`** : Demonstrates dynamic array creation on the Heap using `new[]`, array access via pointers, and manual memory cleanup using `delete[]`.
