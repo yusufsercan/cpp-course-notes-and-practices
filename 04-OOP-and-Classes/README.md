@@ -1,5 +1,5 @@
 
-# 04 - OOP and Classes
+# 📁  04 - OOP and Classes
 
 This directory covers Object-Oriented Programming (OOP) concepts in C++, including encapsulation, inheritance, polymorphism, and class architectures.
 
