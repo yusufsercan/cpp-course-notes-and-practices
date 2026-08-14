@@ -1,5 +1,25 @@
 /*
 ================================================================================
+                    C++ VEKTÖR (VECTOR) KULLANIM PROTOKOLÜ
+================================================================================
+
+* NEDEN VEKTÖR KULLANIYORUZ?
+--------------------------------------------------------------------------------
+1. Klasik array'lerden farklı olarak boyutu sabit değildir; program çalışırken
+   (runtime) canlı canlı büyüyüp küçülebilir, tamamen dinamiktir.
+2. RAM mimarisinde tıpkı array'ler gibi VERİLERİ YAN YANA (bitişik bellek) saklar.
+   Bu yüzden verilere erişim ışık hızındadır.
+3. "new" ve "delete" ameleliği yoktur, işi bittiğinde RAM'i otomatik temizler!
+
+
+* TANIMLAMA ÇEŞİTLERİ VE RAM ARKASINDAKİ ANLAMLARI:
+--------------------------------------------------------------------------------
+vector<int> numbers;        --> Tamamen BOMBOŞ, 0 elemanlı akıllı bir dizi açar.
+vector<int> numbers(10);    --> Heap'te yan yana 10 tane kutu açar, içlerini 0 yapar.
+vector<int> numbers(10, 7); --> Heap'te 10 tane kutu açar, her birinin içine 7 yazar.
+
+
+================================================================================
         C++ STL VEKTÖRLERDE ELEMAN ERİŞİMİ VE SINIR GÜVENLİĞİ
 ================================================================================
 1. v[i]        -> Doğrudan erişim (Hızlıdır, sınır kontrolü yapmaz).
