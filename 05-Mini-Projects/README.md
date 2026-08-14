@@ -4,7 +4,7 @@
 
 
 
-# 05 - Mini Projects
+# 📁  05 - Mini Projects
 
 This directory contains entry-level mini-projects and practical applications developed solely for fundamental educational purposes.
 
