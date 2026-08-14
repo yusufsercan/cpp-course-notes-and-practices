@@ -14,3 +14,4 @@ This directory covers Object-Oriented Programming (OOP) concepts in C++, includi
 * **`05_class_destructor_memory_leak_prevention.cpp`** : Demonstrates RAII principles, dynamic memory management inside C++ classes, destructor cleanup, and preventing memory leaks using `nullptr` and `delete`.
 * **`06_class_templates_swap.cpp`**:Grasping the logic of basic substitution using `typename`
 * **`07_vector_element_access.cpp`**: Demonstrates methods for accessing vector elements (`[]`, `.at()`, `.front()`, `.back()`) and bounds checking.
+* **`08_vector_modifiers.cpp`**: Demonstrates modifier functions (`assign`, `push_back`, `pop_back`, `insert`, `erase`, `clear`) on dynamic vectors.
