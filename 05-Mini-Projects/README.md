@@ -13,7 +13,7 @@ This directory contains entry-level mini-projects and practical applications dev
 
 ---
 
-### 📂 Project List
+### 📜 Project List
 
 * **`battleship_game.cpp`**: Basic 2D matrix-based console Battleship game focused on nested loops, conditional controls, and input handling.
 
