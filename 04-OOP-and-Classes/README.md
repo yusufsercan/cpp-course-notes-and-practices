@@ -12,3 +12,5 @@ This directory covers Object-Oriented Programming (OOP) concepts in C++, includi
 * **`03_encapsulation_getters_setters.cpp`**: Demonstrates data hiding using `private` attributes, along with `get` and `set` accessor methods for data security.
 * **`04_multilevel_inheritance.cpp`**:This code is a basic-level tutorial example demonstrating the concept of multilevel inheritance.
 * **`05_class_destructor_memory_leak_prevention.cpp`** : Demonstrates RAII principles, dynamic memory management inside C++ classes, destructor cleanup, and preventing memory leaks using `nullptr` and `delete`.
+* **`06_class_templates_swap.cpp`**:Grasping the logic of basic substitution using `typename`
+
