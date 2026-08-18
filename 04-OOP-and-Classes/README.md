@@ -15,3 +15,4 @@ This directory covers Object-Oriented Programming (OOP) concepts in C++, includi
 * **`06_class_templates_swap.cpp`**:Grasping the logic of basic substitution using `typename`
 * **`07_vector_element_access.cpp`**: Demonstrates methods for accessing vector elements (`[]`, `.at()`, `.front()`, `.back()`) and bounds checking.
 * **`08_vector_modifiers.cpp`**: Demonstrates modifier functions (`assign`, `push_back`, `pop_back`, `insert`, `erase`, `clear`) on dynamic vectors.
+* **`09_basit_struct_methods.cpp`**: A basic-level example explaining the logic of network scanning using a `struct`.
