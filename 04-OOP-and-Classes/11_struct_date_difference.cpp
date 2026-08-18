@@ -2,8 +2,12 @@
 #include <string>
 /*
 
-bu kodda önemli olan kısım tarih hesaplama fonksiyonunun mantığını kavramak.
+NOT:bu kodda önemli olan kısım tarih hesaplama fonksiyonunun mantığını kavramak.
 
+NOT: C++'ta struct ve class arasındaki tek fark varsayılan erişim belirtecidir.
+- struct: İçindeki elemanlar varsayılan olarak PUBLIC başlar.
+- class : İçindeki elemanlar varsayılan olarak PRIVATE başlar.
+(İhtiyaç duyulursa struct içine de private: yazılarak veri gizlenebilir).
 
 */
 
