@@ -4,6 +4,10 @@
 ================================================================================
     Bu kod, farklı veri tiplerini tek çatı altında toplayan isimlendirilmiş
     struct mimarisinin temel sözdizimini ve kullanımını modeller.
+
+    Struct (Yapı): Birbiriyle ilişkili farklı türdeki değişkenleri (int, string, double vb.) tek tek ve dağınık tanımlamak yerine
+    tek bir çatı/kalıp altında toplayıp bu kalıptan main içinde kolayca yeni nesneler üretmemizi sağlayan veri paketleme yapısıdır.
+    
 ================================================================================
 */
 
