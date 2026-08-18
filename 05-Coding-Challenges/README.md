@@ -4,16 +4,13 @@
 
 
 
-# 📁  05 - Mini Projects
+# 🧩 05 - Coding Challenges & Integrated Practices
 
-This directory contains entry-level mini-projects and practical applications developed solely for fundamental educational purposes.
+This directory contains mixed exercises, logic-heavy problems, and small integrated implementations. 
 
-> ⚠️ **Disclaimer / Note:**  
-> These projects represent basic practice scripts created during my C++ learning journey. They are intended for logic reinforcement and syntax application rather than production-grade software or technical claims.
+> **Focus:** Reinforcing core C++ topics by combining multiple concepts (pointers, arrays, classes, loops) and tackling challenging problem-solving exercises.
 
----
+### 📋 Challenge Index
 
-### 📜 Project List
-
-* **`battleship_game.cpp`**: Basic 2D matrix-based console Battleship game focused on nested loops, conditional controls, and input handling.
+* **battleship_game.cpp:** 2D array grid logic, nested loops, and user input validation.
 
