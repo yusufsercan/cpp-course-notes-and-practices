@@ -16,4 +16,5 @@ This directory covers Object-Oriented Programming (OOP) concepts in C++, includi
 * **`07_vector_element_access.cpp`**: Demonstrates methods for accessing vector elements (`[]`, `.at()`, `.front()`, `.back()`) and bounds checking.
 * **`08_vector_modifiers.cpp`**: Demonstrates modifier functions (`assign`, `push_back`, `pop_back`, `insert`, `erase`, `clear`) on dynamic vectors.
 * **`09_basic_struct_methods.cpp`**: A basic-level example explaining the logic of network scanning using a `struct`.
-* **`10_advanced_struct_methods.cpp`**: An example of a basic-level security audit report that uses port scanning and struct logic.
+* **`10_advanced_struct_methods.cpp`**: An example of a basic-level security audit report that uses port scanning and `struct` logic.
+* **`11_struct_date_difference.cpp`**: A basic-level example that calculates and prints the duration of your life from the day you were born until today, using a `struct`.
