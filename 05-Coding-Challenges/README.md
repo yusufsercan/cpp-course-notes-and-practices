@@ -13,4 +13,3 @@ This directory contains mixed exercises, logic-heavy problems, and small integra
 ### 📋 Challenge Index
 
 * **battleship_game.cpp:** 2D array grid logic, nested loops, and user input validation.
-
