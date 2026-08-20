@@ -14,10 +14,12 @@
 #include <iostream>
 using namespace std;
 
-void ParaCek(int bakiye, int cekilmekIstenen) {
+void ParaCek(int bakiye, int cekilmekIstenen) 
+{
     cout << "1. Bankamatik karti okudu...\n";
 
-    if (cekilmekIstenen > bakiye) {
+    if (cekilmekIstenen > bakiye) 
+    {
         throw 404; // Hata anında akışı kes ve fırlat!
     }
 
@@ -28,10 +30,12 @@ void ParaCek(int bakiye, int cekilmekIstenen) {
     cout << "Guncel bakiyeniz: " << guncelBakiye << " TL\n";
 }
 
-int main() {
+int main() 
+{
     int bakiye, cekilmekIstenen;
 
-    try {
+    try
+    {
         cout << "Guncel bakiyenizi girin: ";
         cin >> bakiye;
         cout << "Cekilmek istenen ucreti girin: ";
@@ -41,7 +45,8 @@ int main() {
         ParaCek(bakiye, cekilmekIstenen);
         cout << "--- Islem Sorunsuz Bitti ---\n";
     }
-    catch (int hataKodu) {
+    catch (int hataKodu),
+    {
         cout << "\n[HATA YAKALANDI] Hata Kodu: " << hataKodu << endl;
         cout << "Sebep: Yetersiz Bakiye!\n";
     }
