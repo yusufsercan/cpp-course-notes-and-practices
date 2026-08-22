@@ -1,4 +1,4 @@
-# 🚀 C++ Course Notes & Practices
+# 🚀 C++ Course Notes & Practices 
 
 This repository contains C++ code examples, algorithms, and practical exercises developed during my university coursework and personal study sessions. 
 
