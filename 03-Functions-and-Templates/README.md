@@ -1,7 +1,6 @@
 
 
 
-
 # 📁  03 - Functions & Templates
 
 This directory contains C++ practices and study notes focused on modular programming, function declarations, scope management, parameter passing, and template mechanics.
