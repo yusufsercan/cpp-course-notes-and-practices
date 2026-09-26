@@ -1,4 +1,4 @@
-# 📁 02-Arrays-and-Pointers
+# 📁 02-Arrays-and-Pointers 
 
 This folder contains practical exercises and projects focusing on C++ arrays, memory manipulation, shifting algorithms, and pointer mechanics.
 
